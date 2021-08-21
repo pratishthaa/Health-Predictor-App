@@ -1,4 +1,4 @@
-# strokepred
+# Stroke Predictor Flutter App
 
 A new Flutter project.
 
