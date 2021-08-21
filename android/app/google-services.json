@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "249698289273",
+    "project_id": "strokepred",
+    "storage_bucket": "strokepred.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249698289273:android:07e0e1b4be54e034a576a8",
+        "android_client_info": {
+          "package_name": "com.example.strokepred"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "249698289273-l9idp66l3jqektf674p4m1iqkt5buf9v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBM3l7obi4RPTA20Od3LhIWCrCsr9zNDhE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "249698289273-l9idp66l3jqektf674p4m1iqkt5buf9v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
