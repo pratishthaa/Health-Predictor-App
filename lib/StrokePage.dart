@@ -6,14 +6,14 @@ import 'package:firebase_auth/firebase_auth.dart';
 
 //void main() => runApp(new MaterialApp(home: new Main()));
 
-class HomePage extends StatefulWidget {
-  static String id='homepage';
+class StrokePage extends StatefulWidget {
+  static String id='strokepage';
 
   @override
-  _HomePageState createState() => _HomePageState();
+  _StrokePageState createState() => _StrokePageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _StrokePageState extends State<StrokePage> {
   late String gender, work_type;
 
   late double age, hypertension, heart_disease,avg_glucose_leve, bmi;
@@ -153,9 +153,6 @@ class _HomePageState extends State<HomePage> {
                         "bmi": bmi,
                       }
                     ];
-                    /*body=[
-                    {"bedrooms": 3, "bathrooms": 1, "sqft_living": 1180, "sqft_lot": 5650, "floors": 1, "waterfront": 0, "view": 0, "condition": 3, "grade": 7, "sqft_above": 1180, "sqft_basement": 0, "lat": 47.5112, "long": -122.257, "sqft_living15": 1340, "sqft_lot15": 5650}
-                  ];*/
                     print(body);
                     var resp = await predict(body);
                     _onBasicAlertPressed(context, resp);

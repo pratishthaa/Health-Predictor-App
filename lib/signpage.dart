@@ -1,18 +1,20 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:strokepred/homepage.dart';
-import 'package:strokepred/homepg.dart';
+// import 'package:strokepred/homepage.dart';
+// import 'package:strokepred/StrokePage.dart';
 
-class Signpage extends StatefulWidget {
-  const Signpage({Key? key}) : super(key: key);
+import 'SelectPage.dart';
+
+class SignPage extends StatefulWidget {
+  const SignPage({Key? key}) : super(key: key);
   static String id='sign-up';
 
 
   @override
-  _SignpageState createState() => _SignpageState();
+  _SignPageState createState() => _SignPageState();
 }
 
-class _SignpageState extends State<Signpage> {
+class _SignPageState extends State<SignPage> {
   final emailController = TextEditingController();
   final passwordController = TextEditingController();
   final GlobalKey<FormState> _key= GlobalKey<FormState>();
@@ -84,7 +86,7 @@ class _SignpageState extends State<Signpage> {
                                         password: passwordController.text,
                                       );
                                      if (new_user != null) {
-                                       Navigator.pushNamed(context, HomePage.id);
+                                       Navigator.pushNamed(context, Selectpage.id);
                                      }
 
                                     } on FirebaseAuthException catch(error) {
@@ -108,7 +110,7 @@ class _SignpageState extends State<Signpage> {
                                         password: passwordController.text,
                                       );
                                       if (user != null) {
-                                        Navigator.pushNamed(context, HomePage.id);}
+                                        Navigator.pushNamed(context, Selectpage.id);}
                                       errorMessage = '';
                                     } on FirebaseAuthException catch (error) {
                                       errorMessage = error.message!;
