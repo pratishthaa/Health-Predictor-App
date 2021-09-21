@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:strokepred/SelectPage.dart';
 //import 'package:firebase_auth/firebase_auth.dart';
 //import 'package:strokepred/homepage.dart';
-import 'package:strokepred/signpage.dart';
-import 'homepg.dart';
+import 'package:strokepred/SignPage.dart';
+import 'DiabetesPage.dart';
+import 'StrokePage.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -30,12 +32,14 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(
         primarySwatch: Colors.teal,
       ),
-      home: Signpage(),
-      initialRoute: Signpage.id,
+      home: SignPage(),
+      initialRoute: SignPage.id,
     routes: {
-      Signpage.id: (context) => Signpage(),
+      SignPage.id: (context) => SignPage(),
+      Selectpage.id: (context) => Selectpage(),
+      DiabetesPage.id:(context) => DiabetesPage(),
       //SignInScreen.id: (context) => SignInScreen(),
-      HomePage.id: (context) => HomePage(),
+      StrokePage.id: (context) => StrokePage(),
     }
     );
   }
