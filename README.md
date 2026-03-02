@@ -51,20 +51,7 @@ The app collects user-provided health inputs, sends them to a backend API, and r
 
 ## Screenshots
 
-Add screenshots to a `screenshots/` folder in the repo and update the links below:
-
-### Login / Home
-![Login](screenshots/login.png)
-![Home](screenshots/home.png)
-
-### Diabetes Prediction Flow
-![Diabetes Form](screenshots/diabetes-form.png)
-![Diabetes Result](screenshots/diabetes-result.png)
-
-### Stroke Prediction Flow
-![Stroke Form](screenshots/stroke-form.png)
-![Stroke Result](screenshots/stroke-result.png)
-
+Screenshots of different pages are in Screenshots folder
 ---
 
 ## How the Prediction Works (at a glance)
