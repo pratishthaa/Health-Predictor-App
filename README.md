@@ -49,11 +49,6 @@ The app collects user-provided health inputs, sends them to a backend API, and r
 
 ---
 
-## Screenshots
-
-Screenshots of different pages are in Screenshots folder
----
-
 ## How the Prediction Works (at a glance)
 
 1. I collect health-related inputs in the Flutter UI.
