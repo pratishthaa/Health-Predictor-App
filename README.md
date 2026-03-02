@@ -8,7 +8,7 @@ The app collects user-provided health inputs, sends them to a backend API, and r
 
 > Note: This app is for learning and demonstration purposes and is **not** medical advice.
 
-<img src="screenshots/healthpred.png" alt="App Screenshot" width="450" />
+<img src="screenshots/healthpred.png" alt="App Screenshot" width="700" />
 ---
 
 ## Features
